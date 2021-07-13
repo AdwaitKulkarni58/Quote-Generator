@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: gold;
+    color: brown;
+    font-size: 3.5rem;
+    font-family: cursive;
+    font-weight: normal;
+    text-align: center;
+    padding: 4% 7%;
+}
+
+img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 10px;
+}
+
+.first-word {
+    color: #1D5EF2;
+}
+
+.second-word {
+    color: deeppink;
+}
+
+.final-word {
+    color: #F2421D;
+}
+
+.subhead {
+    font-size: 1.7rem;
+    padding: 15px 10px;
+}
+
+.main-body {
+    background-color: teal;
+    text-align: center;
+    padding: 10%;
+}
+
+iframe {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: 10px 20px;
+    border-radius: 100%;
+}
+
+.display {
+    padding: 5%;
+    font-family: Montserrat-bold, sans-serif;
+    font-size: 2.3rem;
+    color: #FDFB0A;
+}
+
+.message {
+    background-color: maroon;
+    color: snow;
+    padding: 5%;
+    font-size: 2rem;
+    font-family: "Yu Gothic", sans-serif;
+}
+
+span {
+    font-size: 3rem;
+    font-family: Verdana, sans-serif;
+}
+
+.BUTTON_SNK {
+    background: #042611;
+    background-image: -webkit-linear-gradient(top, #042611, #E5135C);
+    background-image: -moz-linear-gradient(top, #042611, #E5135C);
+    background-image: -ms-linear-gradient(top, #042611, #E5135C);
+    background-image: -o-linear-gradient(top, #042611, #E5135C);
+    background-image: -webkit-gradient(to bottom, #042611, #E5135C);
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    height: 0;
+    line-height: 0;
+    color: #FDFB0A;
+    font-family: Open Sans, sans-serif;
+    width: 258px;
+    font-size: 45px;
+    font-weight: 100;
+    padding: 37px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 0 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_SNK:hover {
+    background: #EF0A14;
+    border: solid #DD380D 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 1028px) {
+    body {
+        text-align: center;
+    }
+}
