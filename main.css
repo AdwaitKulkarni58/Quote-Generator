@@ -6,7 +6,7 @@ body {
 .header {
     background-color: gold;
     color: brown;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: cursive;
     font-weight: normal;
     text-align: center;
@@ -21,19 +21,24 @@ img {
 
 .first-word {
     color: #1D5EF2;
+    font-family: "Lucida Calligraphy", cursive;
 }
 
 .second-word {
     color: deeppink;
+    font-family: "Lucida Calligraphy", cursive;
 }
 
 .final-word {
     color: #F2421D;
+    font-family: "Lucida Calligraphy", cursive;
 }
 
 .subhead {
-    font-size: 1.7rem;
+    color: maroon;
+    font-size: 2.5rem;
     padding: 15px 10px;
+    font-family: "Cormorant Infant SemiBold", cursive;
 }
 
 .main-body {
@@ -51,9 +56,9 @@ iframe {
 }
 
 .display {
-    padding: 5%;
+    padding: 6%;
     font-family: Montserrat-bold, sans-serif;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: #FDFB0A;
 }
 
@@ -108,8 +113,15 @@ span {
     text-decoration: none;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1030px) {
     body {
         text-align: center;
+    }
+    .message{
+        font-size: 1.5rem;
+    }
+    iframe{
+        width: 350px;
+        height: 350px;
     }
 }
