@@ -75,9 +75,19 @@ var quotes = ['Sometimes, being with your best friend, is all the therapy you ne
     'A friend is one of the best things you can be and the greatest things you can have.',
     'Best friends are the people in your life who make you laugh louder, smile brighter and live better.',
     'Time doesn’t take away from friendship, nor does separation.',
-    'When the world is so complicated, the simple gift of friendship is within all of our hands.']
+    'When the world is so complicated, the simple gift of friendship is within all of our hands.',
+    'Real friendship is when your friend comes over to your house and then you both just take a nap.',
+    'Don’t make friends who are comfortable to be with. Make friends who will force you to lever yourself up.',
+    'Friendship marks a life even more deeply than love. Love risks degenerating into obsession, friendship is never anything but sharing.',
+    'Friendship is the hardest thing in the world to explain. It’s not something you learn in school. But if you haven’t learned the meaning of friendship, you really haven’t learned anything.',
+    'A true friend never gets in your way unless you happen to be going down.',
+    'Some people go to priests. Others to poetry. I to my friends.',
+    'There are three things that grow more precious with age; old wood to burn, old books to read, and old friends to enjoy.',
+    'As much as a BFF can make you go WTF, there’s no denying we’d be a little less rich without them.',
+    'For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone.',
+    'Never leave a friend behind. Friends are all we have to get us through this life—and they are the only things from this world that we could hope to see in the next.']
 
 function generateQuote() {
-    var num = Math.floor(Math.random() * quotes.length);
+    let num = Math.floor(Math.random() * quotes.length);
     document.querySelector(".display").innerHTML = quotes[num];
 }
