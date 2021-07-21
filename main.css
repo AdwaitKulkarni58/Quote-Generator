@@ -56,16 +56,11 @@ iframe {
 }
 
 .message {
-    color: snow;
+    color: beige;
     padding: 5%;
     font-size: 1.8rem;
     font-family: "Lucida Calligraphy", sans-serif;
     line-height: 3rem;
-}
-
-span {
-    font-size: 3rem;
-    font-family: "Lucida Calligraphy", sans-serif;
 }
 
 .BUTTON_SNK {
@@ -106,6 +101,25 @@ span {
     text-decoration: none;
 }
 
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy", cursive;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: paleturquoise;
+}
+
+span {
+    font-size: 4rem;
+    color: #FDFB0A;
+}
+
+p {
+    font-size: 2.5rem;
+    color: yellow;
+}
+
 @media (max-width: 1030px) {
     body {
         text-align: center;
@@ -120,3 +134,5 @@ span {
         height: 350px;
     }
 }
+
+
