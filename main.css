@@ -28,24 +28,9 @@ body {
     font-family: "Lucida Calligraphy", cursive;
 }
 
-.subhead {
-    color: chartreuse;
-    font-size: 3rem;
-    padding: 15px 10px;
-    font-family: "Cormorant Infant SemiBold", cursive;
-}
-
 .main-body {
     text-align: center;
     padding: 10%;
-}
-
-iframe {
-    width: 350px;
-    height: 350px;
-    float: left;
-    margin: 10px 20px;
-    border-radius: 100%;
 }
 
 .display {
@@ -53,14 +38,6 @@ iframe {
     font-family: Verdana, sans-serif;
     font-size: 3rem;
     color: #FDFB0A;
-}
-
-.message {
-    color: beige;
-    padding: 5%;
-    font-size: 1.8rem;
-    font-family: "Lucida Calligraphy", cursive;
-    line-height: 3rem;
 }
 
 .BUTTON_SNK {
@@ -123,15 +100,6 @@ p {
 @media (max-width: 1030px) {
     body {
         text-align: center;
-    }
-
-    .message {
-        font-size: 1rem;
-    }
-
-    iframe {
-        width: 350px;
-        height: 350px;
     }
 }
 
